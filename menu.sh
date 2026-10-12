@@ -4,9 +4,9 @@
 # Descripción: Menú de gestión del sistema con funciones.
 # Uso:
 #   ./menu.sh                           -> menú interactivo
-#   ./menu.sh 1 "Salvador Rueda"        -> opción por número
-#   ./menu.sh -a "Salvador Rueda"       -> opción corta
-#   ./menu.sh --add "Salvador Rueda"    -> opción larga
+#   ./menu.sh 1 "Santi Vargas"        -> opción por número
+#   ./menu.sh -a "Santi Vargas"       -> opción corta
+#   ./menu.sh --add "Santi Vargas"    -> opción larga
 # ==============================================================
 
 # ---------------------- FUNCIONES -----------------------------
@@ -37,7 +37,7 @@ mostrar_ayuda() {
     echo "  -h | --help                           Esta ayuda"
 }
 
-# generar_login: convierte "Salvador Rueda" en "salvador.rueda".
+# generar_login: convierte "Santi Vargas" en "santi.vargas".
 # Parámetros: $1 = nombre completo
 generar_login() {
     local nombre="$1"
